@@ -26,6 +26,7 @@ x-env-defaults: &env
   BASE_BROWSE_GRAPHQL_URI: ${BASE_BROWSE_GRAPHQL_URI-https://base-browse.tauron.base.parameter1.com/graphql}
   RECAPTCHA_V3_SITE_KEY: ${RECAPTCHA_V3_SITE_KEY-(unset)}
   RECAPTCHA_V3_SECRET_KEY: ${RECAPTCHA_V3_SECRET_KEY-(unset)}
+  NATIVEX_SERVE_URI: ${NATIVEX_SERVE_URI-}
 
 x-env-tauron: &env-tauron
   GRAPHQL_URI: ${GRAPHQL_URI-https://graphql.tauron.base.parameter1.com}

@@ -2,7 +2,7 @@ const NativeXConfiguration = require('@parameter1/base-cms-marko-web-native-x/co
 const { asObject } = require('@parameter1/base-cms-utils');
 
 module.exports = ({
-  uri = 'https://ascend.native-x.parameter1.com',
+  uri = process.env.NATIVEX_SERVE_URI || 'https://ascend.native-x.parameter1.com',
   enabled = true,
   placements,
 } = {}) => {
